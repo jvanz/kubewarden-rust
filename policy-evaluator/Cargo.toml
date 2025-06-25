@@ -1,0 +1,61 @@
+[package]
+authors = [
+  "Fabrizio Sestito <fabrizio.sestito@suse.com>",
+  "Flavio Castelli <fcastelli@suse.com>",
+  "Rafael Fernández López <rfernandezlopez@suse.com>",
+  "Víctor Cuadrado Juan <vcuadradojuan@suse.com>",
+]
+edition = "2021"
+name = "policy-evaluator"
+version = "0.26.0"
+
+
+[dependencies]
+anyhow = { workspace = true }
+base64 = { workspace = true }
+burrego = { path = "../burrego" }
+cached = { workspace = true }
+chrono = { workspace = true }
+dns-lookup = { workspace = true }
+email_address = { workspace = true }
+futures = { workspace = true }
+itertools = { workspace = true }
+json-patch = { workspace = true }
+k8s-openapi = { workspace = true, default-features = false }
+kube = { workspace = true }
+kubewarden-policy-sdk = { workspace = true }
+lazy_static = { workspace = true }
+mail-parser = { workspace = true }
+picky = { workspace = true }
+policy-fetcher = { path = "../policy-fetcher/" }
+rhai = { workspace = true }
+semver = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_yaml = { workspace = true }
+sha2 = { workspace = true }
+thiserror = { workspace = true }
+time = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+url = { workspace = true }
+validator = { workspace = true }
+wapc = { workspace = true }
+wasi-common = { workspace = true }
+wasmparser = { workspace = true }
+wasmtime = { workspace = true }
+wasmtime-provider = { workspace = true }
+wasmtime-wasi = { workspace = true }
+
+
+[dev-dependencies]
+assert-json-diff = { workspace = true }
+hyper = { workspace = true }
+k8s-openapi = { workspace = true }
+rstest = { workspace = true }
+serial_test = { workspace = true }
+tempfile = { workspace = true }
+test-context = { workspace = true }
+test-log = { workspace = true }
+tower-test = { workspace = true }
+reqwest = { workspace = true }
