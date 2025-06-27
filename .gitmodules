@@ -1,0 +1,3 @@
+[submodule "kwctl"]
+	path = kwctl
+	url = git@github.com:jvanz/kwctl.git
