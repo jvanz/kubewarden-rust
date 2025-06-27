@@ -22,9 +22,7 @@ daemonize = { version = "0.5" }
 futures = { workspace = true }
 itertools = { workspace = true }
 jemalloc_pprof = { version = "0.7.0" }
-k8s-openapi = { workspace = true, default-features = false, features = [
-  "v1_30",
-] }
+k8s-openapi = { workspace = true }
 lazy_static = { workspace = true }
 mime = { version = "0.3" }
 mockall_double = { version = "0.3" }
