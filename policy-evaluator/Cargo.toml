@@ -23,7 +23,7 @@ itertools = { workspace = true }
 json-patch = { workspace = true }
 k8s-openapi = { workspace = true, default-features = false }
 kube = { workspace = true }
-kubewarden-policy-sdk = { workspace = true }
+kubewarden-policy-sdk = { path = "../policy-sdk-rust/", features = ["crd"] }
 lazy_static = { workspace = true }
 mail-parser = { workspace = true }
 picky = { workspace = true }
