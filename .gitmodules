@@ -1,3 +1,6 @@
 [submodule "kwctl"]
 	path = kwctl
 	url = git@github.com:jvanz/kwctl.git
+[submodule "policy-sdk-rust"]
+	path = policy-sdk-rust
+	url = git@github.com:jvanz/policy-sdk-rust.git
